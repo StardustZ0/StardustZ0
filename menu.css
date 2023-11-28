@@ -1,0 +1,56 @@
+
+#menu {
+    text-align: center;
+    width: auto;
+    height: auto; 
+    border: rgb(3, 72, 47) 5px; 
+    border-radius: 15px;
+    background-color: rgba(12, 185, 122,0.5);
+    top: 50%;
+    left: 50%;
+}
+#menu h1{
+    color:black;
+    background-color: rgba(12, 185, 122);
+    font-size: 45px;
+}
+#menu p{
+    color:black;
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bài_tập{
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    font-weight:500 ;
+    font-style: italic;
+    width: auto;
+    height:auto;
+    background-color: rgba(12, 185, 122, 0.5);
+    border: black 5px;
+    border-radius: 15px;
+}
+.bài_tập ul li p {
+    color:  rgb(6, 104, 68)
+}
+.bài_tập h1{
+    color: black;
+}
+.bài_tập ul .bài_tập_1 li{
+    position: relative;
+    display: inline-block;
+}
+.bài_tập ul .bài_tập_1 li .btc ul{
+    display: none;
+}
+.bài_tập ul .bài_tập_1 li:hover .btc ul {
+    display: block;
+}
+.bài_tập ul .bài_tập_1 li:hover {
+    background-color: red;
+}

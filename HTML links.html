@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên kết trong HTML</title>
+    <style>
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        </style>
+</head>
+<body>
+<!-- Thuộc tính target chỉ định nơi mở tài liệu được liên kết.
+
+Thuộc tính target có thể có một trong các giá trị sau:
+
+_self- Mặc định. Mở tài liệu trong cùng cửa sổ/tab khi tài liệu được nhấp vào
+_blank- Mở tài liệu trong cửa sổ hoặc tab mới
+_parent- Mở tài liệu trong khung cha
+_top- Mở tài liệu ở chế độ toàn màn hình -->
+     
+    <h1 class="lop_gia" id="133e4">Tiêu đề 1</h1>
+    <a href="https://www.google.com.vn/" target="_blank">Google</a>
+    <!-- Tạo liên kết bền trong hình ảnh -->
+    <a href="https://www.google.com.vn/">
+        <img src="hn.jpg" alt="" width="100px" height="50px">
+    </a>
+    <!-- Liên kết đến một đại chỉ gmail sử dụng mailto bên trong href -->
+    <a href="mailto:xintuoiquan@gmail.com">Địa chỉ gmail của tôi</a>
+    <!-- Núi dưới dạng liên kết -->
+    <a href="mailto:xintuoiquan@gmail.com"><button style="height:60px; width: 150px; color: aliceblue; background-color: black;">Kích vào đây</button></a>
+
+    <!--Ở đây, một liên kết chưa được truy cập sẽ có màu xanh và không có gạch 
+        chân. Một liên kết đã truy cập sẽ có màu hồng và không có gạch chân. Một 
+        liên kết đang hoạt động sẽ có màu vàng và được gạch chân. Ngoài ra, khi di
+        chuột qua một liên kết (a:hover), nó sẽ chuyển sang màu đỏ và được gạch chân: -->
+
+    <!-- Liên kết bằng id  -->
+    <a href="#133e4">Liên kết là id của của phần tử</a>
+</body>   
+</html>

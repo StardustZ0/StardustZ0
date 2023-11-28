@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image trong HTML</title>
+    <style>
+        body {
+            color: white;
+
+            /* Tạo hình nền cho trang web */
+            background-image: url(hn.jpg) ;
+            /* Có định hình ảnh tại vị trí hiển thị */
+            background-attachment: fixed;
+            /* Cho hình nề hiển thị full màn hình trang web */
+            background-size: cover;
+            /* Nếu hình ảnh quá nhỏ và bạn bạn không muốn hình ảnh ảnh lặp lại 
+            thì bạn hãy sử dụng thuộc tính no-repeat */
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <!-- Kích thước hình ảnh chiều rộng và chiều cao -->
+    <img src="hn.jpg" alt="Hình nền" width="200px" height="150px">
+     <!-- Có thể đưa hình ảnh từ nguồn internet vào trang web 
+    thông qua địa chỉ của hình ảnh -->
+    <img src="https://tvmcomics.com.vn/wp-content/uploads/2019/11/anh2-5.jpg" alt="" height="400px" width="250px">
+
+
+    <h1>Sơ đồ ảnh</h1>
+    <!-- Các lĩnh vực
+    Sau đó, thêm các khu vực có thể nhấp vào.
+
+    Vùng có thể nhấp được xác định bằng cách sử dụng một <area>phần tử.
+
+    Hình dạng
+    Bạn phải xác định hình dạng của vùng có thể nhấp và bạn có thể chọn một trong các giá trị sau:
+
+     rect- xác định một vùng hình chữ nhật
+     circle- xác định vùng hình tròn
+     poly- xác định một vùng đa giác
+     default- xác định toàn bộ khu vực -->
+    <img src="https://homeoffice.com.vn/images/companies/1/SEO/H%C3%ACnh%20%E1%BA%A2nh%20N%E1%BB%99i%20Th%E1%BA%A5t/Ph%C3%B2ng%20L%C3%A0m%20Vi%E1%BB%87c/%C4%90%E1%BB%93%20trang%20tr%C3%AD%20b%C3%A0n%20l%C3%A0m%20vi%E1%BB%87c/8.4c-ke-de-ipad-ban-lam-viec.jpg?1543304320603"  alt="Image main"  usemap="#main" width="400px" height="379px">
+    <map name="main">
+        <!-- map là thể bản đồ ảnh area là dùng để xác định khu vực -->
+        <area shape="rect" coords="34,44,270,350" alt="Laptop" href="https://fptshop.com.vn/uploads/originals/2020/9/29/637369735917636373_huong-dan-cach-cai-dat-hinh-nen-may-tinh-win-10-don-gian-8.jpg">
+        <area shape="rect" coords="290,172,333,250" alt="Hộp bút" href="https://salt.tikicdn.com/cache/w400/ts/product/3e/8f/00/05132953f10aad71c040ed6eda5b40f5.png">
+        <area shape="circle" coords="337,300,44" alt="Li cà phê" href="https://lepathcoffee.com/wp-content/uploads/2022/01/moi-ngay-uong-1-ly-ca-phe-co-tot-khong-768x1152.jpg">
+      </map>
+      <!-- Lí giải ý nghĩa coords="34,44,270,350"
+        nằm ở vị trí 34px từ lề trái và 44px từ lền trên của hình ảnh
+        nằm ở vị trí 270px thừ tính từ lề  trái và cách lề trên 350px của hình ảnh
+     -->
+     <!-- Hình nền phần nàu được style trên phần thể head -->
+
+     <h2>YẾU TỐ HÌNH ẢNH</h2>
+     <!-- 
+        Phần tử HTML <picture>giúp các nhà phát triển web linh hoạt hơn trong việc chỉ định tài nguyên hình ảnh.
+
+        Phần thử <picture> chứa một hoặc nhiều <source>phần tử, mỗi phần tử đề cập đến các hình ảnh khác nhau thông qua srcset thuộc tính. Bằng cách này, trình duyệt có thể chọn hình ảnh phù hợp nhất với chế độ xem và/hoặc thiết bị hiện tại.
+
+        Mỗi phần tử <source> có một mediathuộc tính xác định thời điểm hình ảnh phù hợp nhất.
+      -->
+      <picture>
+        <source media="(min-width: 650px)" srcset="img_https://salt.tikicdn.com/cache/w400/ts/product/3e/8f/00/05132953f10aad71c040ed6eda5b40f5.png">
+        <source media="(min-width: 465px)" srcset="https://lepathcoffee.com/wp-content/uploads/2022/01/moi-ngay-uong-1-ly-ca-phe-co-tot-khong-768x1152.jpg">
+        <img src="hn.jpg" style="width:auto;">
+      </picture>
+      
+
+</map>
+</body>
+</html>
