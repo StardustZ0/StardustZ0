@@ -1,0 +1,70 @@
+body{
+    background-color: #f0f0f0;
+}
+#menu{
+    background-color: black;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    border: black 5px;
+}
+#menu li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+#menu img{
+    height: 15%;
+    width: 15%;
+}
+#menu a{
+    color: white;
+}
+#menu a:hover{
+    color:red;
+}
+#web{ 
+    margin: auto;
+    top: 40%;
+    left: 20%;
+    height: 50%;
+    width: 70%;
+    background-color: white;
+    font-size: 25px;
+}
+#dau_trang{
+    font-size: 20px;
+    position: relative;
+    display: inline-flex;
+    width: auto;
+    height: auto;
+}
+body #web #dau_trang li a{
+    color: rgb(0, 0, 0,0.6);
+}
+body #web #dau_trang li a:hover{
+    color: black;
+}
+#noi_dung{
+    border: black 5px;
+    border-radius: 15px;
+    width: 80%;
+}
+img{
+    height: 90%;
+    width: 90%;
+}
+#noi_dung li a{
+    font-size: 22px;
+    color: gray;
+}
+#noi_dung li a:hover{
+    color: rgb(53, 53, 255);
+}
+#noi_dung .chu_nghieng{
+    font-style: italic;
+}
+

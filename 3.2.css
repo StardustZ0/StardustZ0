@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    width: 150px;
+    max-height: max-content;
+    background-color: white;
+    margin: 10px;
+}
+
+.item li {
+    color: blue;
+    list-style-type: square;
+}
+
+.box1 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+    color: whitesmoke;
+}
+
+.box2 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+    color: whitesmoke;
+}
+
+.box3 {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+    color: whitesmoke;
+}

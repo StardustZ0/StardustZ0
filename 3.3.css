@@ -1,0 +1,41 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.tong {
+    display: flex;
+    width: 700px;
+    height: 730px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box1 {
+    width: 95%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    margin: 2.5%;
+}
+
+#custom {
+    
+    display: flex;
+    margin: 20px;
+
+}
+
+#custom tr , th,td {
+    width: 200px;
+    border: 1px solid  #ddd;
+    text-align: left;
+    margin: 0;
+}
+ #tr1 {
+    background-color: aquamarine;
+}
+
+ #tr2:hover {
+    background-color:  #ddd;
+}
+
