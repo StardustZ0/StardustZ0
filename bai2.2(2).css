@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(3, 178, 3);
+}
+#nd{
+    margin: auto;
+    top: 40%;
+    left: 20%;
+    background-color: white;
+    font-size: 25px;
+    width: 70%;
+    height: 1430px;
+    border-right: 1px solid rgb(164, 164, 164);
+}
+#nd p{
+    font-size: medium;
+}
+.button{ 
+        display: flex;
+        width: 95%;
+        height: 90px;
+        margin-left: 2.5%;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(164, 164, 164);
+}
+.box1 {
+    width: 120px;
+    height: 50px;
+    background-color: #059862;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+.box1 a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+#nd .khung{
+    background-color: rgb(147, 147, 147);
+}
+.red{
+    color: red;
+    background-color: antiquewhite,0.5;
+}
+.blue{
+    color: blue;
+}
+.Explain{
+    display: inline;
+}   
+.vang{
+    width: 100%;
+    height: 20px;
+    background-color: yellow;
+}
+span{
+    font-size: medium;
+}
+pre{
+    font-size: medium;
+}
+.anh {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.anh img {
+    width: 50%;
+    height: 100%;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+.noidung_p3 {
+    width: 98%;
+    height: 275px;
+    background-color: rgb(138, 138, 138);
+    margin-left: 1%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#p2 {
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+#p3 {
+    color: #ffffff;
+    font-size: 15px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.anh1 {
+    box-sizing: border-box;
+    width: 95%;
+    height: 100px;
+    background-color: white;
+    margin-left: 2.5%;
+    border-radius: 3px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.buton2 {
+    width: 150px;
+    height: 50px;
+    background-color: #059862;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    line-height: 50px;
+    text-align: center;
+    font-size: medium;
+}
+
+.buton2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
