@@ -1,0 +1,37 @@
+.nd{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(103, 102, 102);
+}
+.head{
+    font-size: 30px;
+}
+.tin{
+    height: 500px;
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.tin img{
+    width: 100%;
+    height: 90%;
+}
+.body0{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+    .tin{
+        width: 100%;
+        }
+    .tin img{
+        width: 40%;
+        height: 60%;
+        padding-right: 60%;
+    }
+    .body0{
+        flex-direction: column;
+    }
+  } 

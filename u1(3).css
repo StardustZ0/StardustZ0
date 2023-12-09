@@ -1,0 +1,33 @@
+.container{
+    font: medium;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    background-color: aqua;
+}
+.col{
+    width: 32%;
+    padding-left: 5px;
+}
+.body1{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    background-color: red;
+}
+@media screen and (max-width: 600px) {
+    .col{
+        width: 100%;
+    }
+    .body1{
+        flex-direction: row;
+    }
+  } 
