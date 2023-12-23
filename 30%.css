@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0
+}
+body .button1{
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+body .button2{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+body .style1{
+    font-size: 100px;
+    font-style: italic;
+}
+body .style2{
+    font-size: 60px;
+}
+.part1{
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    height: 1210px;
+    width:100%;
+}
+.menu {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+  }
+.menu li{
+    display: inline-block;
+}
+.menu a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}  
+.menu a:hover {
+    color: yellow;
+ }
+.menu a.active {
+    color: red;
+}
+.nd1{
+    color: white;
+    height: auto;
+    width: 100%;
+    margin-top: 400px;
+}
+.nd1 li{
+    display: inline-block;
+}
+.nd1 li p{
+    font-size:30px;
+    font-style: italic;
+}
+.nd1 .anh1 img{
+    float: right;
+    width: 40%;
+    height: 40%;
+}
+.part2{
+    background-color: white;
+    color: black;
+    font-style: italic;
+}
+.part2 h1{
+    text-align: center;
+}
+.part2 p{
+    text-align: center;
+    font-size: 20px;
+}
+.part2 li p{
+    text-align: left;
+    height: 90%;
+    width: 90%;
+}
+.part2 li{
+    display: inline-block;
+    height: auto;
+    width: 33%;
+    justify-content: space-between;
+}
+.part2 li img{
+    height: 90%;
+    width: 90%;
+}
+.part2 li a .button2{
+    margin: auto;
+}
+.part3{
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 130px;
+    width: 80%;
+    height: max-content;
+    transform: translateY(100px);
+}
+.part3 h1{
+    color: white;
+    text-align: center;
+}
+.part3 p{
+    color:white;
+    width: 70%;
+    font-size: 13pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.part3 li{
+    display: inline-block;
+    width: 80%;
+}
+.part4 .a1 img{
+    margin-left: 10px;
+    height:auto ;
+    width: 40%;
+}
+.part4 .a1 p{
+    position: relative;
+    text-align:left;
+    float: right;
+}
+.part4 .a2 img{
+    margin-right:10px ;
+    height:auto ;
+    width: 40%;
+}
