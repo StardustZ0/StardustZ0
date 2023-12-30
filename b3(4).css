@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(31, 4, 37);
+}
+
+.container {
+    justify-content: space-between;
+    width: 100%;
+    min-height: 400px;
+    background-color: #170F23;
+    margin-top: 10%;
+}
+
+#p1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.thongtin {
+    width: 100%;
+    min-height: 350px;
+    /* background-color: aqua; */
+}
+
+.bo {
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bo, .lop1, .lop2, .lop3{
+    width:200px;
+    height:200px;
+}
+.bo{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bo .lop1{
+    top:0;
+    left:0;
+    position: absolute;
+    transition: 0.4s;
+}
+.bo:hover .lop1{
+    transform: scale(1.2);
+}
+.bo .lop2{
+    opacity:0;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    transition: 0.4s;
+ }
+.bo:hover .lop2{
+    opacity: 0.4;
+    transform: scale(1.2);
+
+}
+.bo .lop3{
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    color: white;
+    font-size: 30px;
+    opacity:0;
+    transition: 0.4s;
+}
+.bo:hover .lop3{
+    opacity: 1;
+}
+
+.fa-heart-o {
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.fa-play-circle-o {
+    color: white;
+    font-size: 35px;
+    box-sizing: border-box;
+    /* margin-right: 10px; */
+}
+
+.fa-ellipsis-h {
+    color: white;
+    font-size: 15px;
+    border-radius: boder-box;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 220px;
+    /* background-color: aliceblue; */
+}
+
+.ten {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    /* background-color: rgb(0, 0, 0); */
+    margin-top: 10px;
+}
+
+.box {
+    width:200px;
+    height:50px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* background-color: rosybrown; */
+}
+
+#p2 {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-bottom: 3px;
+}
+#p3 {
+    color: #7B7682;
+}
