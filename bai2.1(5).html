@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>bai2</title>
+</head>
+<body>
+    <input type="text" id="ip1">  
+    <button type="button" onclick="MF()">check</button>
+    <p id="p1"></p>
+    <script>
+        function MF(){
+            var x=document.getElementById("ip1");
+            x=Number(x.value)
+            if(x%2==0){
+                document.getElementById("p1").innerHTML="so chan";
+            }
+            else{
+                document.getElementById("p1").innerHTML="so le";
+            }
+        }
+    </script>
+</body>
