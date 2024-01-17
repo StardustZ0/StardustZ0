@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link From</title>
+    <link rel="stylesheet" href="bai1(6).css">
+    <script defer src="bai1(6).js"></script>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <h1 id="h1p"> FORM ĐĂNG KÝ </h1>
+            <label for="" id="lb1">Họ</label>
+            <input type="text" id="ip1" onblur="ho()"> <br>
+            <p id="error1"></p>
+            <label for=""  id="lb1">Tên</label>
+            <input type="text" id="ip2" onblur="ten()"> <br>
+            <p id="error2"></p>
+            <label for=""  id="lb1">Ngày sinh : </label>
+            <input type="date" id="ip3"> <br>
+
+            <label for=""  id="lb3">Giới tính</label>
+            <input type="radio" id="ip4"  name="gt" onblur="sex()" checked> Nam
+            <input type="radio" id="ip4" name="gt" onblur="sex()"> Nữ <br>
+            <p id="error4"></p>
+            <label for=""  id="lb1">Số điện thoại</label>
+            <input type="number" id="ip5" onblur="sdt()"> <br>
+            <p id="error3"></p>
+            <label for=""  id="lb3">Sở thích</label>
+            <input type="checkbox" id="ip6"> Đọc Sách
+            <input type="checkbox" id="ip6"> Xem phim
+            <input type="checkbox" id="ip6"> Nghe nhạc
+            <input type="checkbox" id="ip6"> Đá bóng <br>
+            <label for=""  id="lb1">Khác</label>
+            <input type="text" id="ip7"> <br>
+
+            <button type="button" onclick="ho(); ten(); sdt(); sex();" id="bt1">Submit</button>
+            <button type="button" onclick="reset()" id="bt2">Reset</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
